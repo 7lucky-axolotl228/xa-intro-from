@@ -1,3 +1,11 @@
+/* CUSTOM PROPERTY */
+:root {
+  --body-bg: #f1f4ff;
+  --green: #4dc490;
+  --blue: #655af2;
+  --red: #f03535;
+  --text-color: #000;
+}
 
 /* GLOBAL */
 html {
@@ -23,11 +31,11 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
-  color: #222;
+  color: var(--text-color);
 }
 
 img {
